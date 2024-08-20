@@ -1,0 +1,178 @@
+@font-face {
+    font-family: heading;
+    src: url(assets/fonts/NType82-Headline.otf);
+}
+@font-face {
+    font-family: ndot;
+    src: url(assets/fonts/Ndot-55.otf);
+}
+@font-face {
+    font-family: regular;
+    src: url(assets/fonts/LetteraMonoLL-Regular.otf);
+}
+@font-face {
+    font-family: medim;
+    src: url(assets/fonts/NType82-Regular.otf);
+}
+
+
+.navbar-brand{
+    font-family: ndot;
+    font-size: 2rem;
+
+}
+.nav-link {
+    font-family: heading;
+    font-size: 18px;
+    color: black;
+}
+.img{
+    
+    height: 660px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img1{
+    background-image: url(assets/fonts/media/phone-2a-plus-mobile_6a61d8f7-9339-4628-8e87-4bef3509a7de.webp);
+}
+
+.navbar-toggler{
+    border: none;
+    
+}
+.navbar-toggler:focus{
+   box-shadow: none;
+}
+.imghtext{
+    font-family: medim;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.imgdtext{
+    font-family: medim;
+    font-size: 1.25rem;
+    line-height: 3.5rem;
+}
+.btn{
+    background-color: #00295E;
+    font-family: regular;
+    font-size: 1.5rem;
+    border: 0;
+    color: white;
+    
+}
+.firstimg{
+    font-family: ndot;
+    font-size: 6rem;
+    writing-mode: vertical-lr;
+    color: white;
+    margin: 0;
+}
+.img2{
+    background-image: url(assets/fonts/media/Homepage_-_Desktop_-_1560x2040_801a445f-c46b-472c-8c85-0f69c6401306_1292x.webp);
+}
+.img3{
+    background-image: url(assets/fonts/media/homepage-desktop_1_1292x.webp);
+}
+.img4{
+    background-image: url(assets/fonts/media/2560x2040_c94fc8ad-eaa5-41a2-ae52-f4f89b84da03_1292x.webp);
+}
+.img5{
+    background-image: url(assets/fonts/media/phone-2a-blue-desktop_1292x.webp);
+}
+.img6{
+    background-image: url(assets/fonts/media/ear-desktop_1292x.webp);
+}
+.img7{
+    background-image: url(assets/fonts/media/ear-a-desktop_1292x.webp);
+}
+.img8{
+    background-image: url(assets/fonts/media/2560_x_2050_1292x.webp);
+}
+.img9{
+    background-image: url(assets/fonts/media/phone-2-launch_892x.webp);
+}
+.secondimg{
+    font-family: ndot;
+    font-size: 6rem;
+    writing-mode: vertical-lr;
+    color: black;
+    margin: 0;
+}
+.imgdtext1{
+    font-family: medim;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.footertext1{
+    font-family: medim;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+.footertext{
+    font-family: medim;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.foot1{
+    color: white;
+    list-style: none;
+}
+.footer{
+    background-color: black;
+}
+.social-media-div{
+    background-color: black;
+    color: white;
+    border-top: 1px solid white;
+}
+@media screen and (max-width:992px){
+    .phone2aplus{
+        background-image: url('media/phone-2a-plus-small.webp');
+    
+    }
+    
+    /* cmf */
+    .cmf{
+        background-image: url('media/cmf-small.webp');
+    }
+    
+    /* communnity edition */
+    .community{
+        background-image: url('media/community-small.webp');
+    }
+    
+    /* special edition */
+    .special{
+        background-image: url('media/special-small.webp');
+    }
+    
+    
+    /* phone 2a */
+    .phone2a{
+        background-image: url('media/phone-2a-small.webp');
+    }
+    
+    /* ear */
+    .ear{
+        background-image: url('media/ear-small.webp');
+    }
+    
+    
+    /* ear a */
+    .eara{
+        background-image: url('media/eara-small.webp');
+    }
+    
+    /* glyph */
+    .glyph{
+        background-image: url('media/glyph-small.webp');
+    }
+    
+    /* phone 2 */
+    .phone2{
+        background-image: url('media/phone2-small.webp');
+    }
+}
